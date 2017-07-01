@@ -25,8 +25,9 @@ def sherlockAndAnagrams(iterable):
                 
     return match
 
-q = int(raw_input().strip())
-for a0 in xrange(q):
-    s = raw_input().strip()
-    result = sherlockAndAnagrams(s)
-    print(result)
+n = int(raw_input().strip())
+s = raw_input().strip()
+result = sherlockAndAnagrams(s)
+print n
+print s
+print(result)
